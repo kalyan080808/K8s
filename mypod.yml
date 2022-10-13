@@ -1,0 +1,10 @@
+apivesion: v1
+kind: Pod
+metadata:
+    name: hello-pod
+spc:
+  containers:
+  - name: first-container
+   image: nginx
+  ports: 
+  - containerport: 80
